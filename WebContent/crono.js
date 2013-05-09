@@ -40,7 +40,7 @@ var crono = {
 		var span = this.stop(name);
 		if (span) {
 			var msg = span / 1000 + "s";
-			funct(msg);
+			funct(name + ": " + msg);
 		}
 	},
 
